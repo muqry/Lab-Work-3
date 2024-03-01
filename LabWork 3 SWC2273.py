@@ -1,3 +1,15 @@
+"""
+    Program Purpose: create a versatile reservation system for ABC Hotel, facilitating users to make room reservations
+    with customizable options. It first defines room types and their respective nightly rates, then prompts users to
+    input check-in and check-out dates. Upon selection of room type, number of rooms, and duration of stay, the program
+    calculates the total cost of the reservation, considering additional services like breakfast, WiFi, or parking if
+    opted for. It displays a confirmation message with detailed reservation information, enabling users to view and
+    confirm their reservation before finalizing it
+    Programmer: Muhammad Muqry Bin Razaly
+    Date 1 March 2024
+
+"""
+
 # Define room types and their nightly rates using lists
 room_types = ["Single Room", "Double Room", "Suite"]
 nightly_rates = [100, 150, 250]
